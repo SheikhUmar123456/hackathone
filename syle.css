@@ -1,0 +1,59 @@
+
+
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.main {
+    width: 40%;
+    height: 400px;
+     margin: 30px auto; 
+    background-color: white;
+    box-shadow: 0 2px 6px  rgb(0 0 0/ 12%);
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: 50px; */
+}
+
+.login{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    margin: 10px 0px;
+    width:  80%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.password{
+    margin: 10px 0px;
+    width:  80%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 30%;
+    margin: 5px 15px;
+    background-color: #1a73e8;
+    border:  0 5px solid grey;
+
+    border-radius: 2px 2px;
+    box-shadow: 0 rgb(0, 0, 0 /12%);
+
+}
